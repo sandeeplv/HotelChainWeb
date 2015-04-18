@@ -1,1 +1,10 @@
 apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'idea'
+
+
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
