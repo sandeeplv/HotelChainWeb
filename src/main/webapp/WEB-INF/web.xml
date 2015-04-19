@@ -24,6 +24,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>/WEB-INF/mvc-dispatcher-servlet.xml</param-value>
+        <param-value>/WEB-INF/application-security.xml</param-value>
     </context-param>
 
 </web-app>
